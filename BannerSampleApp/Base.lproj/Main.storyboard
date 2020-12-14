@@ -22,15 +22,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cBm-BR-lvW" customClass="GADBannerView">
-                                <rect key="frame" x="20" y="795" width="374" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cBm-BR-lvW" customClass="GADBannerView">
+                                <rect key="frame" x="20" y="415" width="374" height="67"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="cBm-BR-lvW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DsF-oE-8yg"/>
+                            <constraint firstItem="cBm-BR-lvW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PmB-uE-YKV"/>
                             <constraint firstItem="ttK-qv-hZd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gSz-Ey-I9V"/>
                             <constraint firstItem="ttK-qv-hZd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="m2G-xT-0t9"/>
                         </constraints>
