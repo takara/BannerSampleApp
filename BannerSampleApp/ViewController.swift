@@ -16,8 +16,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("Google Mobile Ads SDK version: \(GADRequest.sdkVersion())")
         // Do any additional setup after loading the view.
-        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
-//        bannerView.adUnitID = "ca-app-pub-7954935816268514/5264450728" //TAKA
+//        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        bannerView.adUnitID = "ca-app-pub-7954935816268514/5264450728" //TAKA
 //        bannerView.adUnitID = "ca-app-pub-3940256099942544~1458002511"
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
